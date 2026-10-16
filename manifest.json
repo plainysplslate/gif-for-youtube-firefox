@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "GIF for YouTube Firefox",
+  "version": "1.0",
+  "description": "Adds a button to insert GIFs on YouTube.",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://*://*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
