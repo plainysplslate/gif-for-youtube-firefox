@@ -2,9 +2,12 @@
   "manifest_version": 3,
   "name": "GIF for YouTube Firefox",
   "version": "1.0",
-  "description": "Adds a button to insert GIFs on YouTube.",
+  "description": "Post GIFs in YouTube comments just like the rayytor desktop extension.",
   "permissions": [
     "activeTab"
+  ],
+  "host_permissions": [
+    "https://*://*"
   ],
   "content_scripts": [
     {
